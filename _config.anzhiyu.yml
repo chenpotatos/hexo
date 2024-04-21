@@ -139,7 +139,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://img2.imgtp.com/2024/03/28/tzOmSj9V.jpg
   effect: false
 
 # Disable all banner image
@@ -243,7 +243,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
@@ -755,7 +755,7 @@ subtitle:
   # loop (循环打字)
   loop: true
   # source 调用第三方服务
-  # source: false 关闭调用
+  # source: true 关闭调用
   # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
   # source: 2  调用一句网（简体） http://yijuzhan.com/
   # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
@@ -844,7 +844,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 4/21/2024 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1093,7 +1093,7 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
+  leaveTitle: w(ﾟДﾟ)w 别走丫~
   backTitle: ♪(^∇^*)欢迎肥来！
 
 # 留言弹幕配置
@@ -1134,7 +1134,7 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
     # - greeting: 晚安😴
@@ -1149,7 +1149,7 @@ greetingBox:
     # - greeting: 11点多啦, 在坚持一下就吃饭啦～
     #   startTime: 11
     #   endTime: 11
-    # - greeting: 午安👋, 宝贝
+    # - greeting: 午安👋
     #   startTime: 12
     #   endTime: 14
     # - greeting: 🌈充实的一天辛苦啦！
@@ -1201,7 +1201,7 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
