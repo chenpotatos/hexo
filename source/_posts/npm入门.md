@@ -1,7 +1,9 @@
 ---
 title: npm入门
 date: 2024-04-21 15:09:27
-tags:
+tags: front end
+cover: https://pic1.zhimg.com/v2-5f85caa925c4bea110c361588f452b8e_720w.jpg?source=172ae18b
+top_img: https://pic1.zhimg.com/v2-5f85caa925c4bea110c361588f452b8e_720w.jpg?source=172ae18b
 ---
 npm，全名 node package manger。
 
