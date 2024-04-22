@@ -1,24 +1,24 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+   文章:
+     隧道: /archives/ || anzhiyu-icon-box-archive
+     分类: /categories/ || anzhiyu-icon-shapes
+     标签: /tags/ || anzhiyu-icon-tags
 
-  # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
+   友链:
+     友人帐: /link/ || anzhiyu-icon-link
+     朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+   我的:
+     音乐馆: /music/ || anzhiyu-icon-music
+     追番页: /bangumis/ || anzhiyu-icon-bilibili
+     相册集: /album/ || anzhiyu-icon-images
+     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+   关于:
+     关于本人: /about/ || anzhiyu-icon-paper-plane
+     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -226,10 +226,10 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 上海
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
-  avatarSinks: false # hover时头像下沉
+  avatarSinks: true # hover时头像下沉
   copyright_author_img_back:
   copyright_author_img_front:
   copyright_author_link: /
@@ -344,7 +344,7 @@ waline:
   serverURL: # Waline server address url
   bg: # waline background
   pageview: false
-  meta: false # 归属地, 操作系统 前是否显示图标
+  meta: true # 归属地, 操作系统 前是否显示图标
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
@@ -404,13 +404,13 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2023
   custom_text:
   runtime:
     enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    launch_time: 04/01/2024 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
-    work_description: 距离月入25k也就还差一个大佬带我~
+    work_description: 煎熬
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
     offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
   # 徽标部分配置项 https://shields.io/
