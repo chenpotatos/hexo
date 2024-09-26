@@ -1,8 +1,3 @@
-mathjax:
-  enable: true
-  # true 表示每一页都加载mathjax.js
-  # false 需要时加载，须在使用的Markdown Front-matter 加上 mathjax: true
-  per_page: false
   menu:
    文章:
      隧道: /archives/ || anzhiyu-icon-box-archive
@@ -120,8 +115,8 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
 
 # KaTeX
 katex:
