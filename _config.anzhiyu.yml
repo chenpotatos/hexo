@@ -1,4 +1,9 @@
-menu:
+mathjax:
+  enable: true
+  # true 表示每一页都加载mathjax.js
+  # false 需要时加载，须在使用的Markdown Front-matter 加上 mathjax: true
+  per_page: false
+  menu:
    文章:
      隧道: /archives/ || anzhiyu-icon-box-archive
      分类: /categories/ || anzhiyu-icon-shapes
