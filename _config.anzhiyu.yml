@@ -1,3 +1,5 @@
+# Enable Mathjax
+mathjax: true
 menu:
    文章:
      隧道: /archives/ || anzhiyu-icon-box-archive
@@ -1305,5 +1307,4 @@ CDN:
     # ali_iconfont_css:
     # accesskey_js:
 
-    # Enable Mathjax
-mathjax: true
+
